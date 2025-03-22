@@ -1,0 +1,109 @@
+/* Estilos globales con tema oscuro */
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117; /* Fondo oscuro inspirado en GitHub Dark */
+    color: #c9d1d9; /* Texto claro para contraste */
+    line-height: 1.6;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* Títulos */
+  h1 {
+    font-size: 2.8rem;
+    color: #58a6ff; /* Azul claro para destacar */
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #79c0ff;
+    font-weight: 500;
+  }
+  
+  /* Botones */
+  button {
+    background-color: #238636; /* Verde oscuro profesional */
+    color: #ffffff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #2ea043;
+    transform: translateY(-2px);
+  }
+  
+  /* Lista de correos */
+  .email-list {
+    background: #161b22;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+  }
+  
+  .email-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #30363d;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .email-item:hover {
+    background: #21262d;
+  }
+  
+  .email-item strong {
+    color: #c9d1d9;
+    font-weight: 500;
+  }
+  
+  .email-item p {
+    margin: 5px 0 0;
+    color: #8b949e;
+    font-size: 0.95rem;
+  }
+  
+  /* Detalle del correo */
+  .email-detail {
+    background: #161b22;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+  }
+  
+  .email-detail p {
+    margin: 15px 0;
+    font-size: 1.05rem;
+  }
+  
+  .email-detail strong {
+    color: #58a6ff;
+  }
+  
+  /* Estilos adicionales */
+  a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
